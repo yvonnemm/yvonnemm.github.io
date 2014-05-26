@@ -46,24 +46,24 @@
 	background-position:457px 0
 }
 #page2 #content2 .buttons .button {
-	margin-left:10px
+	margin-left:10px;
 }
 /* index-2.html */
 #page3 .line1 {
 	background-position:198px 0
 }
 #page3 .col1 {
-	width:160px
+	width:160px;
 }
 #page3 .col2 {
-	width:685px
+	width:685px;
 }
 #page3 #content2, #page3 .body4, #page3 .body4 main {
 	height:11px;
 	padding:0;
 	margin:0;
 	font-size:0px;
-	line-height:0px
+	line-height:0px;
 }
 /* index-3.html */
 #page4 .line1 {
@@ -98,4 +98,36 @@
 #page6 .line2 {
 	background-position:620px 0
 }
+
+
+
+#content2 article {
+	width: 50%;
+}
+
+#content2 article:first-child {
+
+}
+
+#content2 article:last-child {
+
+}
+
+img {
+	max-width: 100%;
+}
+@media screen and (max-width: 768px) {
+	#content2 article:first-child {
+		
+		width: 100%;
+	}
+	#content2 article:last-child {
+		
+		width: 100%;
+		
+	}
+
+}
+
+
 /* index-6.html */
