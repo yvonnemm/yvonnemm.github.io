@@ -1,0 +1,15 @@
+
+
+img {border: 5px solid #4682b4; size:1200px;}
+
+#AboutHistoryMoreInfo  {display:inline;}
+
+h3 {float;left}
+
+@media screen and (min-width: 768px){
+ 	class: article {
+ 		width: 100%;
+ 		float: none;
+ 		background-color: green;
+ }
+}
